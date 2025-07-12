@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-primary: "Poppins", "sans-serif";
+
+}
+@layer base{
+    body{
+        @apply m-0 p-0 box-border font-primary
+    }
+    section{
+        @apply max-w-300 m-auto px-5 md:p-0
+    }
+}
+@layer utilities{
+    .btn-primary{
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-blue-700 inline-block font-semibold
+    }
+    .btn-secondary{
+        @apply border text-black px-4 py-2 rounded-md cursor-pointer hover:bg-blue-700 hover:text-white inline-block font-semibold
+    }
+    .btn-danger{
+    @apply bg-red-600 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-red-700 inline-block font-semibold
+
+    }
+    .workoutHead{
+        @apply bg-blue-600 md:inline-block hidden text-white p-4 rounded-md cursor-pointer hover:bg-blue-700  text-center font-semibold
+    }
+    .workoutTable > div{
+        @apply flex items-center justify-center
+    }
+    button:disabled{
+        @apply opacity-20 cursor-not-allowed
+    }
+    .navBar li.active{
+        @apply border-b-2
+    }
+}

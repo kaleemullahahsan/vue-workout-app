@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+# Vue Workout App 🏋️‍♂️
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple daily workout tracker built with Vue 3. It includes a workout program, progress tracking with `localStorage`, and health tips.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- 🏆 Tracks completed workout days
+- 🔓 Unlocks each day one by one (consecutive progress)
+- 💾 Saves user data (weights & progress) in localStorage
+- 💡 Shows a new health tip on each visit
+- 🔄 Option to reset all progress
+- 📱 Responsive design with Tailwind CSS
+
+## Tech Stack
+
+- [Vue 3](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/) (icons)
+- LocalStorage (browser data saving)
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
+
+# Build for production
+npm run build

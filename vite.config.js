@@ -16,7 +16,7 @@ export default defineConfig({
         description: 'My Vue.js Workout App',
         theme_color: '#ffffff',
         background_color: '#ffffff',
-        display: 'standalone',
+        display: 'fullscreen',
         start_url: '/',
         icons: [
           {

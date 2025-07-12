@@ -25,7 +25,7 @@ const unlockedIndex = getUnlockedIndex();
             <div class="flex justify-center flex-col items-center gap-5">
                 <RouterLink to="/" class="text-xl font-semibold text-white border-2 border-white p-2 md:p-3 rounded-md"><i
                         class="fa-solid fa-dumbbell rotate-90 text-xl md:text-xl"></i> Daily Work</RouterLink>
-                <ul class="text-white flex gap-10 font-medium navBar">
+                <ul class="text-white flex gap-10 font-medium navBar text-sm md:text-base">
                     <li :class="{ active: route.path === '/' }">
                         <RouterLink to="/">Home</RouterLink>
                     </li>

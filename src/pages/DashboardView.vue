@@ -63,7 +63,7 @@ const resetProgress = () => {
             <button class="btn-primary" @click="startWorkout(workoutProgram[unlockedIndex]?.name || '', unlockedIndex)">
                 Start Workout <i class="fa-solid fa-dumbbell ml-2"></i>
             </button>
-            <button class="btn-danger ml-3" @click="resetProgress()">
+            <button class="btn-danger mt-3 sm:ml-3" @click="resetProgress()">
                 Reset Progress <i class="fa-solid fa-trash-can-arrow-up"></i>
             </button>
         </div>

@@ -11,11 +11,11 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'My Vue App',
-        short_name: 'VueApp',
+        name: 'My Daily Workouts',
+        short_name: 'Daily Work',
         description: 'My Vue.js Workout App',
-        theme_color: '#ffffff',
-        background_color: '#ffffff',
+        theme_color: 'oklch(54.6% 0.245 262.881)',
+        background_color: 'oklch(54.6% 0.245 262.881)',
         display: 'standalone',
         start_url: '/',
         icons: [
